@@ -1,0 +1,17 @@
+C:\Users\Zack\Desktop\School\C#\AssignmentOneGearhart\AssignmentOneGearhart\bin\Debug\net5.0-windows\AssignmentOneGearhart.exe
+C:\Users\Zack\Desktop\School\C#\AssignmentOneGearhart\AssignmentOneGearhart\bin\Debug\net5.0-windows\AssignmentOneGearhart.deps.json
+C:\Users\Zack\Desktop\School\C#\AssignmentOneGearhart\AssignmentOneGearhart\bin\Debug\net5.0-windows\AssignmentOneGearhart.runtimeconfig.json
+C:\Users\Zack\Desktop\School\C#\AssignmentOneGearhart\AssignmentOneGearhart\bin\Debug\net5.0-windows\AssignmentOneGearhart.runtimeconfig.dev.json
+C:\Users\Zack\Desktop\School\C#\AssignmentOneGearhart\AssignmentOneGearhart\bin\Debug\net5.0-windows\AssignmentOneGearhart.dll
+C:\Users\Zack\Desktop\School\C#\AssignmentOneGearhart\AssignmentOneGearhart\bin\Debug\net5.0-windows\ref\AssignmentOneGearhart.dll
+C:\Users\Zack\Desktop\School\C#\AssignmentOneGearhart\AssignmentOneGearhart\bin\Debug\net5.0-windows\AssignmentOneGearhart.pdb
+C:\Users\Zack\Desktop\School\C#\AssignmentOneGearhart\AssignmentOneGearhart\obj\Debug\net5.0-windows\AssignmentOneGearhart.csproj.GenerateResource.cache
+C:\Users\Zack\Desktop\School\C#\AssignmentOneGearhart\AssignmentOneGearhart\obj\Debug\net5.0-windows\AssignmentOneGearhart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zack\Desktop\School\C#\AssignmentOneGearhart\AssignmentOneGearhart\obj\Debug\net5.0-windows\AssignmentOneGearhart.AssemblyInfoInputs.cache
+C:\Users\Zack\Desktop\School\C#\AssignmentOneGearhart\AssignmentOneGearhart\obj\Debug\net5.0-windows\AssignmentOneGearhart.AssemblyInfo.cs
+C:\Users\Zack\Desktop\School\C#\AssignmentOneGearhart\AssignmentOneGearhart\obj\Debug\net5.0-windows\AssignmentOneGearhart.csproj.CoreCompileInputs.cache
+C:\Users\Zack\Desktop\School\C#\AssignmentOneGearhart\AssignmentOneGearhart\obj\Debug\net5.0-windows\AssignmentOneGearhart.dll
+C:\Users\Zack\Desktop\School\C#\AssignmentOneGearhart\AssignmentOneGearhart\obj\Debug\net5.0-windows\ref\AssignmentOneGearhart.dll
+C:\Users\Zack\Desktop\School\C#\AssignmentOneGearhart\AssignmentOneGearhart\obj\Debug\net5.0-windows\AssignmentOneGearhart.pdb
+C:\Users\Zack\Desktop\School\C#\AssignmentOneGearhart\AssignmentOneGearhart\obj\Debug\net5.0-windows\AssignmentOneGearhart.genruntimeconfig.cache
+C:\Users\Zack\Desktop\School\C#\AssignmentOneGearhart\AssignmentOneGearhart\obj\Debug\net5.0-windows\AssignmentOneGearhart.frmAreaAndPeirmeter.resources

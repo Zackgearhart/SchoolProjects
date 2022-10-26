@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Assignment2Gearhartr.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Assignment 2</title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="wrapper">
+    <form id="form1" runat="server">
+        <header>
+            Header
+        </header>
+        <nav>
+            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" DynamicBottomSeparatorImageUrl="1px" BackColor="#B5C7DE" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#284E98" StaticSubMenuIndent="10px" >
+                <DynamicHoverStyle BackColor="#284E98" BorderColor="#990000" BorderStyle="Solid" ForeColor="White" />
+                <DynamicMenuItemStyle HorizontalPadding="15px" VerticalPadding="5px" />
+                <DynamicMenuStyle BackColor="#B5C7DE" />
+                <DynamicSelectedStyle BackColor="#507CD1" />
+                <StaticHoverStyle BackColor="#284E98" ForeColor="red" />
+                <StaticMenuItemStyle HorizontalPadding="15px" VerticalPadding="5px" />
+                <StaticSelectedStyle BackColor="" />
+            </asp:Menu>
+            
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+            
+        </nav>
+        <main>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                This comes from the master page
+            </asp:ContentPlaceHolder>
+        </main>
+        <footer>
+            Footer
+        </footer>
+    </form>
+    </div>
+</body>
+</html>

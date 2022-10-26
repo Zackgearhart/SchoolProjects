@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment2Gearhartr", "Assignment2Gearhartr.csproj", "{A9203413-80EB-4757-B730-8185E25EEBF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9203413-80EB-4757-B730-8185E25EEBF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9203413-80EB-4757-B730-8185E25EEBF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9203413-80EB-4757-B730-8185E25EEBF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9203413-80EB-4757-B730-8185E25EEBF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AA223BD-B344-461A-B926-40ADE40A87E9}
+	EndGlobalSection
+EndGlobal

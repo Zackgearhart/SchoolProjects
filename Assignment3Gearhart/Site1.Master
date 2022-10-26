@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Assignment3Gearhart.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper">
+    <form id="form1" runat="server">
+      <header>
+          Header
+      </header>
+      <nav>
+           <br />
+          <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1"  Orientation="Horizontal" BackColor="#B5C7DE" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="1.2em" ForeColor="#284E98" StaticSubMenuIndent="10px">
+              <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
+              <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+              <DynamicMenuStyle BackColor="#B5C7DE" />
+              <DynamicSelectedStyle BackColor="#507CD1" />
+              <StaticHoverStyle BackColor="#284E98" ForeColor="Red" />
+              <StaticMenuItemStyle HorizontalPadding="15px" VerticalPadding="5px" />
+              <StaticSelectedStyle BackColor="#507CD1" />
+           </asp:Menu>
+          
+         
+      </nav>
+        
+      <main>
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+              This comes from the master Page
+              This might be something that we want to show <br />
+              on special occasions
+          </asp:ContentPlaceHolder>
+      </main> 
+      <footer>
+          This is the footer
+      </footer>     
+        
+    </form>
+    </div>
+</body>
+     <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+</html>

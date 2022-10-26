@@ -1,0 +1,49 @@
+﻿@model List<FuelRecordModel>
+
+@{
+    ViewData["Title"] = "Display";
+    decimal previousMileageTotal = 0;
+    decimal previousMileage = 0;
+    decimal milesDriven = 0;
+}
+
+<div class="text-center">
+    <h2>Fuel Record List </h2>
+    <table class="table table-bordered table-striped">
+        <thread>
+            <tr>
+                <th>Starting Mileage</th>
+                <th>Fill Up Mileage</th>
+                <th>Miles Driven</th>
+                <th>Date</th>
+                <th>Miles Per Gallon</th>
+                <th>Price</th>
+                <th>Number of Gallons</th>
+                <th>Cost Per Mile</th>
+            </tr>
+        </thread>
+        <tbody>
+
+            @foreach (var record in Model)
+            {
+            <tr>
+                @{ 
+                    milesDriven = record.milesDriven(previousMileage);
+                }
+                <td>@previousMileage</td>
+                <td>@record.mileage</td>
+                <td>@milesDriven</td>
+                <td>@record.datePurchased</td>
+                <td>@record.MilesPerGallon(milesDriven)</td>
+                <td>@record.pricePaid</td>
+                <td>@record.numberGallons</td>
+                <td>$@record.CostPerMile(milesDriven)</td>
+                @{
+                    previousMileageTotal += @record.mileage;
+                    previousMileage = @record.mileage;
+                    }
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
